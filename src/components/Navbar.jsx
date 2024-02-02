@@ -1,21 +1,22 @@
+import { Link } from "gatsby";
 import React from "react";
 
 const Navbar = () => {
     return (
         <header className="flex flex-row items-center px-6 sm:px-12 py-6">
             <div className="mr-6">
-                <a aria-current="page" className="transition text-black duration-200 ease-in-out flex flex-row items-center hover:text-red-700 font-extrabold text-sm no-underline tracking-widest uppercase" href="/">MRizki</a>
+                <Link to="/" aria-current="page" className="transition text-black duration-200 ease-in-out flex flex-row items-center hover:text-red-700 font-extrabold text-sm no-underline tracking-widest uppercase">MRizki</Link>
             </div>
             <nav>
                 <ul className="flex flex-row m-0">
                     <li className="ml-5 mb-0">
-                        <a aria-current="page" className="transition duration-200 ease-in-out flex flex-row items-center text-black hover:text-red-600 uppercase text-xs font-bold no-underline" href="/">About</a>
+                        <Link to="/" aria-current="page" className="transition duration-200 ease-in-out flex flex-row items-center text-black hover:text-red-600 uppercase text-xs font-bold no-underline">About</Link>
                     </li>
                     <li className="ml-5 mb-0">
-                        <a aria-current="page" className="transition duration-200 ease-in-out flex flex-row items-center text-black hover:text-red-600 uppercase text-xs font-bold no-underline" href="/">Project</a>
+                        <Link to="/project" aria-current="page" className="transition duration-200 ease-in-out flex flex-row items-center text-black hover:text-red-600 uppercase text-xs font-bold no-underline">Project</Link>
                     </li>
                     <li className="ml-5 mb-0">
-                        <a aria-current="page" className="transition duration-200 ease-in-out flex flex-row items-center text-black hover:text-red-600 uppercase text-xs font-bold no-underline" href="/">Certificate</a>
+                        <Link to="/" aria-current="page" className="transition duration-200 ease-in-out flex flex-row items-center text-black hover:text-red-600 uppercase text-xs font-bold no-underline">Certificate</Link>
                     </li>
                 </ul>
             </nav>
@@ -23,4 +24,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar
+export default Navbar;

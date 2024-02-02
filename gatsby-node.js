@@ -15,4 +15,12 @@ exports.createPages = async ({ actions }) => {
     context: {},
     defer: true,
   })
+
+  createPage({
+    path: "/project",
+    component: require.resolve("./src/pages/projects/Project.jsx"),
+    context: {},
+  });
+
+
 }
