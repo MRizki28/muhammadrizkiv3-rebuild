@@ -10,7 +10,7 @@ const Hero = () => {
                     <div className="w-64 h-64 rounded-full overflow-hidden">
                         <div className="">
                             <picture>
-                                <StaticImage src="../../../../images/rizki.png" alt="profil"></StaticImage>
+                                <StaticImage src="../../../../images/rizki2.png" alt="profil"></StaticImage>
                             </picture>
                         </div>
                     </div>
