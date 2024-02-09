@@ -32,7 +32,7 @@ const Hero = () => {
                     </div>
                 </div>
                 <div className="flex flex-col justify-center items-center sm:items-center max-w-screen-2xl">
-                    <div className={`${showAllSkills ? 'lg:ml-0 ml-[50px]' : ''}`}>
+                    <div className={`${showAllSkills ? 'lg:ml-0 ml-[20px]' : ''}`}>
                         <div className="flex flex-row text-center mb-1">
                             <h1 className="text-3xl mb-1 uppercase font-extrabold">
                                 Muhammad Rizki
