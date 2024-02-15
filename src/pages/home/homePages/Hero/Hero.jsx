@@ -40,7 +40,7 @@ const Hero = () => {
                         </div>
                         <div className="mb-3  font-light text-gray-500 flex flex-row items-center">
                             <svg stroke="currentColor" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" className="mr-1 w-4 h-4" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
-                            <span className="mr-14">Junior Software Enginner</span>
+                            <span className="mr-14">Junior Software Engineer</span>
                         </div>
                         <div className="mb-3 font-light">
                             <span className=" text-center sm:text-left mb-0">Open Source Project feature on GitHub</span>
