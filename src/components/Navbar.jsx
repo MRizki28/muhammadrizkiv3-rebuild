@@ -3,7 +3,7 @@ import React from "react";
 
 const Navbar = () => {
     return (
-        <header className="flex flex-row items-center px-6 sm:px-12 py-6">
+        <header className="flex flex-row items-center px-6 sm:px-12 py-6 font-sans">
             <div className="mr-6">
                 <Link to="/" aria-current="page" className="transition text-black duration-200 ease-in-out flex flex-row items-center hover:text-red-700 font-extrabold text-sm no-underline tracking-widest uppercase">MRizki</Link>
             </div>
