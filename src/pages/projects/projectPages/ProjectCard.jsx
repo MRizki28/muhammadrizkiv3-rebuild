@@ -1,6 +1,7 @@
 import React from "react";
 import Img from "gatsby-image";
 import ProjectData from "../../../data/projectData/ProjectData";
+
 const ProjectCard = () => {
     const projects = ProjectData()
     return (
