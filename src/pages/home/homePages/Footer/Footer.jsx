@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
     return (
-        <h2></h2>
+        <h2>testing</h2>
     )
 }
 

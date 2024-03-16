@@ -8,10 +8,7 @@ const ProjectCard = () => {
             {projects.map((item, index) => (
                 <div key={index} className="transition duration-200 ease-in-out shadow-lg border-b-black border rounded-md overflow-hidden bg-white flex flex-col">
                     <div className="transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-105 h-48 bg-cover bg-gray-200 overflow-hidden block  cursor-pointer">
-                        <a href="">
-                            <Img fixed={item.img} alt="1" />
-                        </a>
-
+                        <Img fixed={item.img} alt="1" />
                     </div>
                     <div className="p-6" >
                         <div className="mb-3">
@@ -47,7 +44,7 @@ const ProjectCard = () => {
                         </div>
                         <div className="mt-5">
                             <div className="flex flex-row items-center">
-                                <a href={item.url} target="_blank" className="transition no-underline space-x-3 duration-200 ease-in-out flex flex-row items-center text-black hover:bg-black hover:text-white  mr-4 bg-white py-2 px-3 rounded shadow-sm border border-solid border-gray-300">
+                                <a href={item.url} target="_blank" rel="noreferrer" className="transition no-underline space-x-3 duration-200 ease-in-out flex flex-row items-center text-black hover:bg-black hover:text-white  mr-4 bg-white py-2 px-3 rounded shadow-sm border border-solid border-gray-300">
                                     <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M133 440a35.37 35.37 0 01-17.5-4.67c-12-6.8-19.46-20-19.46-34.33V111c0-14.37 7.46-27.53 19.46-34.33a35.13 35.13 0 0135.77.45l247.85 148.36a36 36 0 010 61l-247.89 148.4A35.5 35.5 0 01133 440z"></path></svg>
 
                                     <span>Go</span>
