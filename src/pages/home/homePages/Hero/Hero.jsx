@@ -85,7 +85,7 @@ const Hero = () => {
             </div>
 
             <div>
-                <p className="font-light max-w-screen-xl">Hey there! I'm Muhammad Rizki. I work as a full-time software developer. In my free time I do open source. Most of my open source
+                <p className="font-light max-w-screen-xl">Hey there! I'm Muhammad Rizki. I work as a full-time software engineer. In my free time I do open source. Most of my open source
                     project
                     focuses on one thing – to help people learn. You can see it in my <a href="https://github.com/MRizki28?tab=repositories" className="font-bold  text-black" target="_blank" rel="noopener noreferrer">repo</a>  if you want to test and use it for your project</p>
             </div>

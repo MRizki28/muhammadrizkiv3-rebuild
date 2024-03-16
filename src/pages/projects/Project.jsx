@@ -9,7 +9,7 @@ const Project = () => {
                 <Navbar></Navbar>
                 <div className="px-6 sm:px-12 py-6">
                     <div className="flex flex-row items-center">
-                        <h1 className="text-3xl mb-6 uppercase font-extrabold">Project</h1>
+                        <h1 className="text-3xl font-sans  mb-6 uppercase font-extrabold ">Projects</h1>
                     </div>
                 </div>
                 <ProjectCard></ProjectCard>
