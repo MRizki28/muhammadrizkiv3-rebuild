@@ -5,9 +5,11 @@ const Hero = () => {
     const initialSkills = [
         "Full Stack",
         "PHP",
+        "Golang",
         "Laravel",
         "JavaScript",
         "Express.Js",
+        "Nest.Js",
         "React.Js",
         "Gatsby.Js"
     ];
