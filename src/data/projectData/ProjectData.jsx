@@ -107,6 +107,18 @@ const ProjectData = () => {
                 "Certification"
             ]
         },
+        {
+            img: data.chatApp.childImageSharp.fixed,
+            title: 'RMessage',
+            year: "Mei 2024",
+            description: 'This a chat app',
+            url: 'https://github.com/MRizki28/chat-app',
+            "technology": [
+                "Laravel",
+                "Websocket",
+                "Rest Api"
+            ]
+        },
     ];
 
     return projects

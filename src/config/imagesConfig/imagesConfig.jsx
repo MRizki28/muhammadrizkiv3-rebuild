@@ -66,6 +66,13 @@ const ImagesConfig = () => {
                     }
                 }
             }
+            chatApp: file(relativePath: { eq: "projects/chatapp.jpg" }) {
+                childImageSharp {
+                    fixed(width: 363, height: 192) {
+                        ...GatsbyImageSharpFixed
+                    }
+                }
+            }
         }
     `);
 
