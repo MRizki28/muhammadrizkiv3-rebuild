@@ -66,7 +66,7 @@ const ImagesConfig = () => {
                     }
                 }
             }
-            chatApp: file(relativePath: { eq: "projects/chatapp.jpg" }) {
+            chatApp: file(relativePath: { eq: "projects/chatapp.png" }) {
                 childImageSharp {
                     fixed(width: 363, height: 192) {
                         ...GatsbyImageSharpFixed
