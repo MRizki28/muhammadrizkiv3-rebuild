@@ -4,6 +4,19 @@ const ProjectData = () => {
     const data = ImagesConfig();
     const projects = [
         {
+            img: data.letsImun.childImageSharp.fixed,
+            title: 'Lets Imun',
+            year: "July 2024",
+            description: 'This a backoffice for lets imun app, and i make a API for mobile apps',
+            url: 'https://github.com/MRizki28/chat-app',
+            "technology": [
+                "Laravel",
+                "Websocket",
+                "Firebase",
+                "Rest Api"
+            ]
+        },
+        {
             img: data.chatApp.childImageSharp.fixed,
             title: 'RMessage',
             year: "Mei 2024",
