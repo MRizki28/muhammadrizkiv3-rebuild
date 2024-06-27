@@ -73,6 +73,13 @@ const ImagesConfig = () => {
                     }
                 }
             }
+            letsImun: file(relativePath: { eq: "projects/letsImun.png" }) {
+                childImageSharp {
+                    fixed(width: 363, height: 192) {
+                        ...GatsbyImageSharpFixed
+                    }
+                }
+            }
         }
     `);
 
