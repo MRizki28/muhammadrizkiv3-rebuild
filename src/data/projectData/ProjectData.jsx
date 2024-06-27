@@ -21,7 +21,7 @@ const ProjectData = () => {
             title: 'RMessage',
             year: "Mei 2024",
             description: 'This a chat app',
-            url: 'https://github.com/MRizki28/chat-app',
+            url: '#',
             "technology": [
                 "Laravel",
                 "Websocket",
