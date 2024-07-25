@@ -15,9 +15,9 @@ const Navbar = () => {
                     <li className="ml-5 mb-0">
                         <Link to="/project" aria-current="page" className="transition duration-200 ease-in-out flex flex-row items-center text-black hover:text-red-600 uppercase text-xs font-bold no-underline">Project</Link>
                     </li>
-                    <li className="ml-5 mb-0">
+                    {/* <li className="ml-5 mb-0">
                         <Link to="/" aria-current="page" className="transition duration-200 ease-in-out flex flex-row items-center text-black hover:text-red-600 uppercase text-xs font-bold no-underline">Certificate</Link>
-                    </li>
+                    </li> */}
                 </ul>
             </nav>
         </header>
