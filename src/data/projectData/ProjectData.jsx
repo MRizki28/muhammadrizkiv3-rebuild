@@ -5,7 +5,7 @@ const ProjectData = () => {
     const projects = [
         {
             img: data.responseApi.childImageSharp.fixed,
-            title: 'Lets Imun',
+            title: 'Package Composer API Response',
             year: "Aug 2024",
             description: 'This a package library for help you manage your API response',
             url: 'https://github.com/MRizki28/MRizki28-ApiResponse',
