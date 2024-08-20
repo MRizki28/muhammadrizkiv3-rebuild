@@ -80,6 +80,13 @@ const ImagesConfig = () => {
                     }
                 }
             }
+            responseApi: file(relativePath: { eq: "projects/responseApi.png" }) {
+                childImageSharp {
+                    fixed(width: 363, height: 192) {
+                        ...GatsbyImageSharpFixed
+                    }
+                }
+            }
         }
     `);
 
